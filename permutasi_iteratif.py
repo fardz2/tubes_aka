@@ -1,7 +1,7 @@
-def permutationIterative(n, r):
+def permutasi_iteratif(n, r):
     result = 1
     for i in range(r):
         result = result * (n - i)
     return result
 
-print(permutationIterative(5,2))
+print(permutasi_iteratif(5,2))
